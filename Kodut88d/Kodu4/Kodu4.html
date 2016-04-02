@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ESIMENE LEHT</title>
+    <style type="text/css">
+        body {
+            background: #0A24A9;
+        }
+        img {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+        }
+        #esimene {
+            height: 300px;
+            width: 300px;
+            position: fixed;
+            top: 50px;
+            left: 50px;
+        }
+        .sisemised {
+            border-radius: 50%;
+            position: absolute;
+        }
+        .sisemised:nth-child(odd) {
+            border: 1px solid white;
+            background-color: white
+        }
+        .sisemised:nth-child(even) {
+            border: 1px solid red;
+            background-color: red;
+        }
+        .sisemised:nth-child(1) {
+            height: 100%;
+            width: 100%;            
+            left: 50px;
+            top: 50px;
+        }
+        .sisemised:nth-child(2) {
+            height: 80%;
+            width: 80%;
+            left: 80px;
+            top: 80px;
+        }
+        .sisemised:nth-child(3) {
+            height: 60%;
+            width: 60%;
+            left: 110px;
+            top: 110px;
+        }
+        .sisemised:nth-child(4) {
+            height: 40%;
+            width: 40%;
+            left: 140px;
+            top: 140px;
+        }
+        .sisemised:nth-child(5) {
+            height: 20%;
+            width: 20%;
+            left: 170px;
+            top: 170px;
+        }
+         .sisemised:nth-child(6) {
+            height: 5%;
+            width: 5%;
+            left: 193px;
+            top: 193px;
+        }
+    </style>
+</head>
+<body>
+    <img src="duck.png" alt="sihtmärgi taust">
+    <div id="esimene"> 
+        <div class="sisemised"></div>
+        <div class="sisemised"></div>
+        <div class="sisemised"></div>
+        <div class="sisemised"></div>
+        <div class="sisemised"></div>
+        <div class="sisemised"></div>
+    </div>
+    
+</body>
+</html>
